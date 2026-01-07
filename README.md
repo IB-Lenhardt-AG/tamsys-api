@@ -3,7 +3,7 @@
 The TAMSys API provides programmatic access to IB-Lenhardt’s **Type Approval Management System (TAMSys)**.  
 It enables companies to integrate type approval processes into their own systems, automate workflows, and exchange approval-related data securely and efficiently.
 
-TAMSys is designed to manage the growing complexity of global vehicle type approvals and regulatory requirements.
+TAMSys is designed to manage the growing complexity of global type approvals and regulatory requirements.
 
 👉 Learn more about TAMSys:  
 https://ib-lenhardt.com/solutions/tamsys
@@ -12,13 +12,13 @@ https://ib-lenhardt.com/solutions/tamsys
 
 ## What is TAMSys?
 
-TAMSys is a centralized platform for managing **type approval data, regulations, markets, vehicles, variants, and approval statuses** across global markets.
+TAMSys is a centralized platform for managing **type approval data, regulations, markets, variants, and approval statuses** across global markets.
 
 It supports companies in:
 - Handling international homologation requirements
 - Managing regulatory changes
 - Tracking approval statuses per market
-- Structuring complex vehicle and variant data
+- Structuring complex product and variant data
 - Reducing manual effort and errors in approval processes
 
 The TAMSys API exposes selected functionality of the system for integration into external tools such as ERP systems, PLM systems, internal dashboards, or automation workflows.
@@ -47,7 +47,7 @@ Typical use cases include:
 Depending on configuration and permissions, the API can support access to:
 
 - Type approval data
-- Vehicles, variants, and configurations
+- Products, variants, and configurations
 - Markets and regulatory frameworks
 - Approval statuses and lifecycle information
 - Related metadata used in approval management
@@ -110,7 +110,7 @@ For detailed API specifications, supported endpoints, and production usage guide
 
 ## About IB-Lenhardt
 
-IB-Lenhardt AG is a global provider of software solutions and consulting services in the field of vehicle type approval and homologation.
+IB-Lenhardt AG is a global provider of software solutions and consulting services in the field of type approval and homologation.
 
 More information:
 https://ib-lenhardt.com
