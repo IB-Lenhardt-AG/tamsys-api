@@ -1,0 +1,61 @@
+// LOGIN
+import requests
+import json
+
+url = "https://tamsys.org/webapi/v1/api.php/login/auth"
+
+payload = json.dumps({
+  "credentials": {
+    "token": "{YOUR_ACCESS_TOKEN}",
+    "key": "{YOUR_SECRET_KEY}"
+  }
+})
+headers = {
+  'Content-Type': 'application/json'
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+print(response.text)
+
+// TEST
+import requests
+import json
+
+url = "https://tamsys.org/webapi/v1/api.php/Login/test"
+
+payload = json.dumps({
+  "credentials": {
+    "token": "{YOUR_ACCESS_TOKEN}",
+    "key": "{YOUR_SECRET_KEY}"
+  }
+})
+headers = {
+  'Content-Type': 'application/json',
+  'Authorization': 'Bearer {YOUR_BEARER_TOKEN}'
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+print(response.text)
+
+// GET PRODUCTS
+import requests
+import json
+
+url = "https://tamsys.org/webapi/v1/api.php/product/getProducts"
+
+payload = json.dumps({
+  "credentials": {
+    "token": "{YOUR_ACCESS_TOKEN}",
+    "key": "{YOUR_SECRET_KEY}"
+  }
+})
+headers = {
+  'Content-Type': 'application/json',
+  'Authorization': 'Bearer {YOUR_BEARER_TOKEN}'
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+print(response.text)
